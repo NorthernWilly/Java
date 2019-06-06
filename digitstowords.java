@@ -69,7 +69,7 @@ class digits{
 		String answer = "";
 
 		if (N<=(9999)){
-			if (N>=(1000) && N<=(9999)){
+			if (N>=(1000)){
 			answer+=ones(N/1000)+" thousand ";
 			N=(N%1000);
 			}
@@ -97,6 +97,6 @@ class digitstowords{
 	public static void main(String xyz[]){
 		digits number;
 		number = new digits();
-		number.sort(1760);
+		number.sort(1919);
 	}
 }

@@ -18,6 +18,7 @@ class testbank{
 		NBS.amount(2);
 		NBS.setdollar(60);
 		Natwest.amount(2);
+		
 
 	}
 }

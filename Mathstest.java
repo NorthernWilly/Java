@@ -4,10 +4,10 @@ class Maths {
 		Result = A + B;
 		System.out.println("Result:"+Result);
 	}
-	public int Subtraction(int A, int B){
+	public void Subtraction(int A, int B){
 		int answer;
 		answer = A - B;
-		return answer;
+		System.out.println("The Result is:"+answer);
 	}
 }
 
@@ -16,6 +16,6 @@ class Mathstest{
 		Maths x;
 		x = new Maths();
 		x.Addition(2,10);
-		System.out.println("Result is:"+ x.Subtraction(50,5));
+		
 	}
-}
+}          
